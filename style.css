@@ -1,0 +1,151 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* top acrea backgroud  */
+.top-section{
+    background-color: #2d25a0;
+}
+/* menu bar  */
+.menu-bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.menu{
+    margin: 42px 124px 0px 156px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding-right: 36px;
+    
+}
+.log-out{
+    margin: 42px 124px 0 350px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+}
+.log-out p{
+    margin: 0;
+}
+/* Top area  */
+.top-area{
+    display: flex;
+    align-items: center;
+   
+}
+.title{
+    margin-left: 156px;
+    margin-right: 202px;
+    line-height: 80px;
+}
+.title h1{
+    margin: 0;
+}
+.title a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10PX 24px;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+    margin-right: 140px;
+    margin-bottom: 86px;
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+}
+
+/* player name and details  */
+.blog{
+    width: 340px;
+    height: 520px;
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 30px grey;
+
+}
+.player img{
+    height: 256px;
+    width: 300px;
+
+    
+}
+.player-details{
+   padding: 16px;
+   
+    
+}
+.player-details p, h2{
+    margin: 0;
+    
+}
+.mid-area{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+    margin: 70px 190px 30px;
+}
+.line-brack{
+    box-shadow: 5px 5px 20px gray;
+    margin: 40px 0;
+}
+.sponser{
+    text-align: center;
+    
+}
+.sponser-area{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 50px 150px;
+}
+.company-logo img{
+    width: 70%;
+}
+/* footer area  */
+.footer-area {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;;
+}
+.footer-image img{
+    width: 480px;
+    height: 110px;
+}
+.social-icon i{
+    font-size: 30px;
+    padding-right: 10px;
+    color: rgba(128, 128, 128, 0.637);
+}
+@media only screen and ( max-width:688px) {
+    .header-area{
+     display: none;
+    }
+    .log-out {
+        display: none;
+        
+    }
+    .top-area{
+        flex-direction: column;
+       width: 100%;
+        
+    }
+    .mid-area{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
